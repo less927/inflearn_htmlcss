@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 300px;
+            height: 100px;
+            margin: 10px;
+            padding: 10px;
+            border: 10px solid green;
+        }
+
+        box-cb{
+            box-sizing: content-box;
+        }
+
+        box-bb {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-cb">CSS box model cb</div>
+    <div class="box-bb">CSS box model bb</div>
+    <div style="box-sizing: border-box;">css box model cb</div>
+    <div style="width:90%;height:200px;background-color:green">
+    <div style="width: 50%;
+                    max-width: 900px;
+                    min-width: 200px; 
+                    height: 50%; 
+                    background-color: red;"
+                    </div>
+    </div>
+    
+</body>
+</html>
+
+
